@@ -88,7 +88,7 @@
         </ActivityAction>
       </ui:OpenBrowser.Body>
     </ui:OpenBrowser>
-    <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="[strValor]" DisplayName="Send SMTP Mail Message" Email="caio.srodrigues@hotmail.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="334,145" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Name="BitCoin" Password="@SkylineCdsr99" Port="587" SecureConnection="Auto" Server="smtp.live.com" Subject="[&quot;A cotação do BitCoin: &quot; &amp; DateTime.Now]" To="cdsr073@gmail.com">
+    <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="[strValor]" DisplayName="Send SMTP Mail Message" Email="caio.srodrigues@hotmail.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="444,145" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Name="BitCoin" Password="@SkylineCdsr99" Port="587" SecureConnection="Auto" Server="smtp.live.com" Subject="[&quot;A cotação do BitCoin: &quot; &amp; DateTime.Now]" To="BACKOFFICE.HOSPITAIS@SOFTMARKETING.COM.BR">
       <ui:SendMail.Files>
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
       </ui:SendMail.Files>
