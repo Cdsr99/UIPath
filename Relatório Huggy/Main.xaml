@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="894,2078" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="894,2816" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -202,7 +202,7 @@
           <ui:CursorPosition OffsetX="35" OffsetY="12" Position="TopLeft" />
         </ui:Click.CursorPosition>
         <ui:Click.Target>
-          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="6474399d-714e-498e-bd06-2ac0febae8b2" InformativeScreenshot="d464fac12d72214693b73ef8425f6a1c" Selector="&lt;wnd app='excel.exe' cls='XLMAIN' title='19685-2020-10-01-2020-10-01-202010011535 - Excel' /&gt;&lt;uia automationid='Grid' name='Grade' role='grade de dados' /&gt;&lt;uia name='A' role='Cabeçalho de Coluna' tableCol='1' tableRow='0' /&gt;">
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="6474399d-714e-498e-bd06-2ac0febae8b2" InformativeScreenshot="d464fac12d72214693b73ef8425f6a1c" Selector="&lt;wnd app='excel.exe' cls='XLMAIN' omit:title='19685-2020-10-01-2020-10-01-202010011535 - Excel' /&gt;&lt;uia automationid='Grid' name='Grade' role='grade de dados' /&gt;&lt;uia name='A' role='Cabeçalho de Coluna' tableCol='1' tableRow='0' /&gt;">
             <ui:Target.TimeoutMS>
               <InArgument x:TypeArguments="x:Int32" />
             </ui:Target.TimeoutMS>
@@ -217,7 +217,7 @@
           <ui:CursorPosition OffsetX="47" OffsetY="16" Position="TopLeft" />
         </ui:Click.CursorPosition>
         <ui:Click.Target>
-          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1f0c8e42-86cd-4058-8f24-c013432fe3ef" InformativeScreenshot="ffffd8495cb2ee8830885b5aa991163e" Selector="&lt;wnd app='excel.exe' cls='XLMAIN' title='19685-2020-10-01-2020-10-01-202010011535 - Excel' /&gt;&lt;uia cls='MsoCommandBar' helpText='Barra de ferramentas Ribbon' /&gt;&lt;uia cls='NetUIPanViewer' name='Guias da Faixa de Opções' /&gt;&lt;uia cls='NetUIRibbonTab' name='Dados' /&gt;">
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1f0c8e42-86cd-4058-8f24-c013432fe3ef" InformativeScreenshot="ffffd8495cb2ee8830885b5aa991163e" Selector="&lt;wnd app='excel.exe' cls='XLMAIN' omit:title='19685-2020-10-01-2020-10-01-202010011535 - Excel' /&gt;&lt;uia cls='MsoCommandBar' helpText='Barra de ferramentas Ribbon' /&gt;&lt;uia cls='NetUIPanViewer' name='Guias da Faixa de Opções' /&gt;&lt;uia cls='NetUIRibbonTab' name='Dados' /&gt;">
             <ui:Target.TimeoutMS>
               <InArgument x:TypeArguments="x:Int32" />
             </ui:Target.TimeoutMS>
@@ -232,7 +232,7 @@
           <ui:CursorPosition OffsetX="32" OffsetY="27" Position="TopLeft" />
         </ui:Click.CursorPosition>
         <ui:Click.Target>
-          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bdd4d9b8-a2cf-4f9a-83ad-61a097d38449" InformativeScreenshot="3cafc00a438173b6049dec8071a3636f" Selector="&lt;wnd app='excel.exe' cls='XLMAIN' title='19685-2020-10-01-2020-10-01-202010011535 - Excel' /&gt;&lt;uia cls='MsoCommandBar' helpText='Barra de ferramentas Ribbon' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Dados' /&gt;&lt;uia cls='NetUIChunk' name='Ferramentas de Dados' /&gt;&lt;uia cls='NetUIRibbonButton' name='Texto para Colunas...' /&gt;">
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bdd4d9b8-a2cf-4f9a-83ad-61a097d38449" InformativeScreenshot="3cafc00a438173b6049dec8071a3636f" Selector="&lt;wnd app='excel.exe' cls='XLMAIN' omit:title='19685-2020-10-01-2020-10-01-202010011535 - Excel' /&gt;&lt;uia cls='MsoCommandBar' helpText='Barra de ferramentas Ribbon' /&gt;&lt;uia cls='NetUIOrderedGroup' name='Dados' /&gt;&lt;uia cls='NetUIChunk' name='Ferramentas de Dados' /&gt;&lt;uia cls='NetUIRibbonButton' name='Texto para Colunas...' /&gt;">
             <ui:Target.TimeoutMS>
               <InArgument x:TypeArguments="x:Int32" />
             </ui:Target.TimeoutMS>
@@ -244,7 +244,7 @@
       </ui:Click>
       <ui:Check AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" Action="Check" DisplayName="Check 'radio button  Delimitado'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Check_1">
         <ui:Check.Target>
-          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1cad7429-09d8-41c8-a722-1b76f782eccd" InformativeScreenshot="595e923f5f962f29ac2500a9ab75d3be" Selector="&lt;wnd app='excel.exe' cls='bosa_sdm_XL9' title='Assistente para conversão de texto em colunas - etapa 1 de 3' /&gt;&lt;ctrl name='Delimitado' role='radio button' /&gt;">
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1cad7429-09d8-41c8-a722-1b76f782eccd" InformativeScreenshot="595e923f5f962f29ac2500a9ab75d3be" Selector="&lt;wnd app='excel.exe' cls='bosa_sdm_XL9' omit:title='Assistente para conversão de texto em colunas - etapa 1 de 3' /&gt;&lt;ctrl name='Delimitado' role='radio button' /&gt;">
             <ui:Target.TimeoutMS>
               <InArgument x:TypeArguments="x:Int32" />
             </ui:Target.TimeoutMS>
@@ -259,7 +259,7 @@
           <ui:CursorPosition OffsetX="34" OffsetY="11" Position="TopLeft" />
         </ui:Click.CursorPosition>
         <ui:Click.Target>
-          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7b76f1ab-5ebf-4674-8886-500fde9122fa" InformativeScreenshot="46f55f6670dda4ed73ac2b52017b2d4b" Selector="&lt;wnd app='excel.exe' cls='bosa_sdm_XL9' title='Assistente para conversão de texto em colunas - etapa 1 de 3' /&gt;&lt;ctrl name='Avançar &amp;gt;' role='push button' /&gt;">
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7b76f1ab-5ebf-4674-8886-500fde9122fa" InformativeScreenshot="46f55f6670dda4ed73ac2b52017b2d4b" Selector="&lt;wnd app='excel.exe' cls='bosa_sdm_XL9' omit:title='Assistente para conversão de texto em colunas - etapa 1 de 3' /&gt;&lt;ctrl name='Avançar &amp;gt;' role='push button' /&gt;">
             <ui:Target.TimeoutMS>
               <InArgument x:TypeArguments="x:Int32" />
             </ui:Target.TimeoutMS>
@@ -271,7 +271,7 @@
       </ui:Click>
       <ui:Check AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" Action="Check" DisplayName="Check 'check box  Vírgula'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Check_2">
         <ui:Check.Target>
-          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="fa80feaa-0e0b-4618-b88e-9653255f0d1a" InformativeScreenshot="3608db441a32976ff451b5e527933402" Selector="&lt;wnd app='excel.exe' cls='bosa_sdm_XL9' title='Assistente para conversão de texto em colunas - etapa 2 de 3' /&gt;&lt;ctrl name='Vírgula' role='check box' /&gt;">
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="fa80feaa-0e0b-4618-b88e-9653255f0d1a" InformativeScreenshot="3608db441a32976ff451b5e527933402" Selector="&lt;wnd app='excel.exe' cls='bosa_sdm_XL9' omit:title='Assistente para conversão de texto em colunas - etapa 2 de 3' /&gt;&lt;ctrl name='Vírgula' role='check box' /&gt;">
             <ui:Target.TimeoutMS>
               <InArgument x:TypeArguments="x:Int32" />
             </ui:Target.TimeoutMS>
@@ -286,7 +286,7 @@
           <ui:CursorPosition OffsetX="61" OffsetY="15" Position="TopLeft" />
         </ui:Click.CursorPosition>
         <ui:Click.Target>
-          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b9b89c1c-689a-40be-a074-68f0bcb098e6" InformativeScreenshot="85ca54ccc54890e4733707e02e41e23f" Selector="&lt;wnd app='excel.exe' cls='bosa_sdm_XL9' title='Assistente para conversão de texto em colunas - etapa 2 de 3' /&gt;&lt;ctrl name='Avançar &amp;gt;' role='push button' /&gt;">
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b9b89c1c-689a-40be-a074-68f0bcb098e6" InformativeScreenshot="85ca54ccc54890e4733707e02e41e23f" Selector="&lt;wnd app='excel.exe' cls='bosa_sdm_XL9' omit:title='Assistente para conversão de texto em colunas - etapa 2 de 3' /&gt;&lt;ctrl name='Avançar &amp;gt;' role='push button' /&gt;">
             <ui:Target.TimeoutMS>
               <InArgument x:TypeArguments="x:Int32" />
             </ui:Target.TimeoutMS>
@@ -301,7 +301,7 @@
           <ui:CursorPosition OffsetX="61" OffsetY="15" Position="TopLeft" />
         </ui:Click.CursorPosition>
         <ui:Click.Target>
-          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5db1460b-c738-480a-96b6-d7c766d0cadd" InformativeScreenshot="ca02374c932d6841baa1257f9af02d22" Selector="&lt;wnd app='excel.exe' cls='bosa_sdm_XL9' title='Assistente para conversão de texto em colunas - etapa 3 de 3' /&gt;&lt;ctrl name='Avançar &amp;gt;' role='push button' /&gt;">
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5db1460b-c738-480a-96b6-d7c766d0cadd" InformativeScreenshot="ca02374c932d6841baa1257f9af02d22" Selector="&lt;wnd app='excel.exe' cls='bosa_sdm_XL9' omit:title='Assistente para conversão de texto em colunas - etapa 3 de 3' /&gt;&lt;ctrl name='Avançar &amp;gt;' role='push button' /&gt;">
             <ui:Target.TimeoutMS>
               <InArgument x:TypeArguments="x:Int32" />
             </ui:Target.TimeoutMS>
@@ -316,7 +316,7 @@
           <ui:CursorPosition OffsetX="21" OffsetY="16" Position="TopLeft" />
         </ui:Click.CursorPosition>
         <ui:Click.Target>
-          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a76f1d6f-391c-4a25-a661-1ff736e34a35" InformativeScreenshot="ceb92c437575a61196caf189085f3412" Selector="&lt;wnd app='excel.exe' cls='bosa_sdm_XL9' title='Assistente para conversão de texto em colunas - etapa 3 de 3' /&gt;&lt;ctrl name='Concluir' role='push button' /&gt;">
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a76f1d6f-391c-4a25-a661-1ff736e34a35" InformativeScreenshot="ceb92c437575a61196caf189085f3412" Selector="&lt;wnd app='excel.exe' cls='bosa_sdm_XL9' omit:title='Assistente para conversão de texto em colunas - etapa 3 de 3' /&gt;&lt;ctrl name='Concluir' role='push button' /&gt;">
             <ui:Target.TimeoutMS>
               <InArgument x:TypeArguments="x:Int32" />
             </ui:Target.TimeoutMS>
@@ -331,7 +331,7 @@
           <ui:CursorPosition OffsetX="25" OffsetY="11" Position="TopLeft" />
         </ui:Click.CursorPosition>
         <ui:Click.Target>
-          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8af33c93-524d-4203-b1db-4916a1f99304" InformativeScreenshot="ceb92c437575a61196caf189085f3412" Selector="&lt;wnd app='excel.exe' cls='bosa_sdm_XL9' title='Assistente para conversão de texto em colunas - etapa 3 de 3' /&gt;&lt;ctrl name='Concluir' role='push button' /&gt;">
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8af33c93-524d-4203-b1db-4916a1f99304" InformativeScreenshot="ceb92c437575a61196caf189085f3412" Selector="&lt;wnd app='excel.exe' cls='bosa_sdm_XL9' omit:title='Assistente para conversão de texto em colunas - etapa 3 de 3' /&gt;&lt;ctrl name='Concluir' role='push button' /&gt;">
             <ui:Target.TimeoutMS>
               <InArgument x:TypeArguments="x:Int32" />
             </ui:Target.TimeoutMS>
