@@ -1433,7 +1433,7 @@
       </ui:SendHotkey>
       <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_7" Text="[&quot;Dash atualizado com sucesso!&quot;]" />
       <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Delay_22" />
-      <ui:CloseWindow TimeoutMS="{x:Null}" UseWindow="{x:Null}" DisplayName="Close Window 'excel.exe CHSC_Outubro-...'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="CloseWindow_2" InformativeScreenshot="687ca34034c77fa808b5fffce13df6de" Selector="&lt;wnd app='excel.exe' cls='XLMAIN' title='CHSC_Outubro-20 - Excel' /&gt;" WaitForReady="INTERACTIVE" />
+      <ui:CloseWindow TimeoutMS="{x:Null}" UseWindow="{x:Null}" DisplayName="Close Window 'excel.exe CHSC_Outubro-...'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="CloseWindow_2" InformativeScreenshot="687ca34034c77fa808b5fffce13df6de" Selector="&lt;wnd app='excel.exe' cls='XLMAIN' title='HNSG_Outubro-20 - Excel' /&gt;" WaitForReady="INTERACTIVE" />
       <Delay Duration="00:00:15" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Delay_23" />
     </Sequence>
   </Sequence>
